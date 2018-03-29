@@ -96,7 +96,7 @@ People.prototype = {
   //constructor 手动将constructor赋值People对象以保证对象识别
   //若不设置，则 new People() instanceof People >> false
   //但此刻会将constructor属性设置为Enmuerable
-  //即会
+  //即会导致
   constructor : People,
   name : "NAME",
   age : "AGE",
